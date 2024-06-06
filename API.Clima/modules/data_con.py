@@ -44,7 +44,7 @@ class DataConn:
             query_checker = f"""
                 SELECT 1 FROM information_schema.tables 
                 WHERE table_schema = '{self.schema}'
-                AND table_name = '{table_name}';              
+                AND table_name = '{table_name}';
             """
             cursor.execute(query_checker)
             

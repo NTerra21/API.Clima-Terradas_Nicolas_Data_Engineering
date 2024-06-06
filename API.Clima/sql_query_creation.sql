@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS andru_ocatorres_coderhouse.weather_data;
+DROP TABLE IF EXISTS nicolas_terradas_coderhouse.weather_data;
 
-CREATE TABLE weather_data (
+CREATE TABLE nicolas_terradas_coderhouse.weather_data (
     city VARCHAR(250),
     temperature FLOAT,
     humidity INT,

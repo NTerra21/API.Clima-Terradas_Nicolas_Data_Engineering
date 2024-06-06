@@ -19,7 +19,7 @@ def main():
         'REDSHIFT_PORT': os.getenv('REDSHIFT_PORT'),
         'REDSHIFT_DBNAME': os.getenv('REDSHIFT_DBNAME')
     }
-    schema = 'andru_ocatorres_coderhouse'
+    schema = 'nicolas_terradas_coderhouse'
     
     data_conn = DataConn(config=config, schema=schema)
     data_conn.get_conn()
