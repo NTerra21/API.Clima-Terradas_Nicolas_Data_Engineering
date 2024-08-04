@@ -1,5 +1,3 @@
-# Weather Data ETL Project
-
 ## Descripción
 Este proyecto extrae datos meteorológicos de la API de OpenWeatherMap, los transforma y los carga en una base de datos Redshift. El objetivo es automatizar este proceso utilizando Apache Airflow y contenedores Docker.
 
