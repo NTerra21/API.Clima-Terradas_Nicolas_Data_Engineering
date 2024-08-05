@@ -3,22 +3,7 @@
 ## Descripción
 Este proyecto extrae datos meteorológicos de la API de OpenWeatherMap, los transforma y los carga en una base de datos Redshift. El objetivo es automatizar este proceso utilizando Apache Airflow y contenedores Docker.
 
-## Estructura del Proyecto
-API.CLIMA4_FINAL/
-├── Dockerfile
-├── requirements.txt
-├── sql_scripts/
-│   ├── Seguridad_basica_Redshift.sql
-│   ├── Seguridad_columnas_Redshift.sql
-│   └── sql_query_creation.sql
-├── dag/
-│   └── dag.py
-├── modules/
-│   ├── __init__.py
-│   ├── data_con.py
-│   └── get_data_from_api.py
-├── .env
-└── main.py
+
 
 
 ## Instrucciones de Uso
