@@ -19,6 +19,8 @@ Este proyecto extrae datos meteorológicos de la API de OpenWeatherMap, los tran
     REDSHIFT_DBNAME=data-engineer-database
     YOUR_OPENWEATHERMAP_API_KEY=80078194ebdb0d0eb0b5ed04317f344f
     ```
+# Descargar complementos
+pip install -r requirements.txt
 
 ### Construcción y Ejecución del Contenedor Docker
 1. Construir la imagen Docker:
