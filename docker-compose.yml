@@ -12,7 +12,7 @@ services:
       - postgres-db-volume:/var/lib/postgresql/data
 
   airflow:
-    image: apache/airflow:2.6.0-python3.8
+    image: apache/airflow:2.9.3-python3.8
     container_name: airflow
     restart: always
     environment:
@@ -30,7 +30,7 @@ services:
     command: webserver
 
   airflow-init:
-    image: apache/airflow:2.6.0-python3.8
+    image: apache/airflow:2.9.3-python3.8
     container_name: airflow-init
     depends_on:
       - postgres
