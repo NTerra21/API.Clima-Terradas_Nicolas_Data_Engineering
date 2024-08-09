@@ -70,8 +70,16 @@ El sistema envía alertas por correo electrónico si se detectan valores que sob
 - Asegúrate de que todas las dependencias estén actualizadas y sean compatibles.
 - Revisa y adapta los scripts SQL según sea necesario para tu entorno específico.
 
-# Esto creará un nuevo usuario con el rol de administrador.
+### Para AirFLow
+docker-compose up -d
+  En archivo .env
+
+## Esto creará un nuevo usuario con el rol de administrador.
+docker-compose run airflow-worker airflow users create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin
 airflow users create --username myuser --password mypassword --firstname John --lastname Doe --email johndoe@miempresa.com --role ADM
+
+### Local Host
+localhost:8080
 
 # Donde /path/to/user.json es el camino al archivo JSON que contiene la información del usuario.
 airflow users create --json /path/to/user.json
